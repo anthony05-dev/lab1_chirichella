@@ -1,4 +1,7 @@
 public class motorcycle {
-    private String color;
+    private String colorA;
 
+    public motorcycle(String color1){
+        this.colorA = color1;
+    }
 }
