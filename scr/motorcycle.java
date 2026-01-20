@@ -1,4 +1,4 @@
 public class motorcycle {
-    private String motocycle_color;
+    private String color;
 
 }
