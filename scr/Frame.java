@@ -4,6 +4,6 @@ public class Frame {
         this.frameMaterial = material;
     }
     public Material getMaterial(){
-        return frameMaterial;
+        return frameMaterial; //returns proper fram material
     }
 }

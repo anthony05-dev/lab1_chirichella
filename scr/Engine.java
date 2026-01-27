@@ -14,7 +14,7 @@ public class Engine {
     }
 
     public String getCC(){
-        return this.cc_A;
+        return this.cc_A;   //returns proper value
     }
 
     public void setHP(String hp2){
@@ -23,6 +23,6 @@ public class Engine {
 
     public String getHP(){
         return this.hp_A;
-    }
+    } //gets hp
 
 }

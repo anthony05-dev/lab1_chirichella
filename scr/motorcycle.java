@@ -1,3 +1,16 @@
+/**
+
+ * Project: Lab 1
+ * Purpose Details: Motorcycle
+ * Course: IST 242
+ * Author: Anthony Chirichella
+ * Date Developed: 1/26
+ * Last Date Changed: 1/27
+ * Rev: 9
+
+ */
+
+
 import javax.swing.*;
 
 public class motorcycle {
@@ -5,7 +18,14 @@ public class motorcycle {
     private Frame frame_A;
     private Wheel[] wheels;
 
-
+    /**
+     * Adds two numbers and returns the result.
+     *
+     * @param color1 This is the color of the bike frame.
+     * @param frameMaterial this is the material of the frame.
+     * @param wheelSize This is the size of the bike frame.
+     *
+     */
 
     public motorcycle(String color1, Material frameMaterial, double wheelSize){
         this.color_A = color1;
